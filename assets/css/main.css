@@ -1,0 +1,75 @@
+body{
+    background-color: #f3e5d8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 3rem;
+}
+
+
+.prep_time{
+    background-color: #fff7fc;
+    padding: 1.5rem;
+    border-radius: 25px;
+    margin: 1rem 0;
+}
+
+.prep_time h1{
+    color: #8c4e69;
+}
+
+.prep_time li{
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+.headers{
+    color: #864632;
+    margin-bottom: 0;
+}
+
+.ingredients li{
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+.instructions li{
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+.instructions li::marker{
+    color:#864632;
+    font-weight: bold;
+}
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition th, .nutrition td{
+    border-bottom: 1px solid #864632;
+    padding: 1rem;
+}
+
+.nutrition td{
+    color: #864632;
+    font-weight: bold;
+}
+
+.mt-0{
+    margin-bottom: 0;
+}
