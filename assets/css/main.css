@@ -12,7 +12,8 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
     background-color: white;
     border-radius: 25px;
     padding: 3rem;
